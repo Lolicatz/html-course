@@ -1,0 +1,8 @@
+.xinchao p{
+    color: blueviolet;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid darkred;
+    padding: 64px;
+    margin: 64px;
+}

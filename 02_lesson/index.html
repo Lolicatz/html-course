@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting and Style</title>
+    <link rel="stylesheet" href="/02_lesson/style.css">
+</head>
+<body>
+
+    <!-- Mỗi tiêu đề HTML có kích thước mặc định. Tuy nhiên, bạn có thể chỉ định kích thước cho bất kỳ tiêu đề nào bằng stylethuộc tính này bằng thuộc tính CSS font-size: -->
+    <h1 style="font-size: 60px;">Hom Nay Toi Buon</h1>
+
+
+
+    <!-- Thẻ <hr>xác định điểm ngắt theo chủ đề trong trang HTML và thường được hiển thị dưới dạng quy tắc ngang. phân tách nội dung -->
+    <h1>Im on the Next level</h1>
+    <p>This is some text.</p>
+    <hr>
+
+    <h2>Im on the Next level</h2>
+    <p>This is some other text.</p>
+    <hr>
+
+    <h2>Im on the Next level</h2>
+    <p>This is some other text.</p>
+    
+
+
+
+    <!-- Văn bản bên trong một <pre>phần tử được hiển thị bằng phông chữ có chiều rộng cố định (thường là Courier) và nó giữ nguyên cả dấu cách và ngắt dòng: -->
+    <pre>
+        My Bonnie lies over the ocean.
+         
+        My Bonnie lies over the sea.
+         
+        My Bonnie lies over the ocean.
+            
+        Oh, bring back my Bonnie to me.
+    </pre> 
+
+
+
+<!-- thuộc tính style thêm màu cho chữ -->
+    <p>I am normal</p>
+<p style="color:red;">I am red</p>
+<p style="color:blue;">I am blue</p>
+<p style="font-size:50px;">I am big</p>
+
+
+
+<!-- thuộc tính style thêm màu nền cho trang web background-color -->
+<style>body{background-color:burlywood;}</style>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+
+
+<!-- đặt màu nền cho 2 phần tử khác nhau -->
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+
+
+
+<!-- font-family là thành phần phông chữ -->
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+
+
+
+<!-- căn chỉnh văn bản theo chiều ngang -->
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+
+<!-- các phần tử đặc biệt  -->
+<p><b>quá mệt mỏi/b></p>
+<p><i>à nhon a xê ô</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+
+
+<!-- <b>- Chữ in đậm
+    <strong>- Văn bản quan trọng
+    <i>- Văn bản in nghiêng
+    <em>- Đoạn văn bản được nhấn mạnh
+    <mark>- Văn bản được đánh dấu
+    <small>- Văn bản nhỏ hơn
+    <del>- Đã xóa văn bản
+    <ins>- Đã chèn văn bản
+    <sub>- Văn bản đăng ký
+    <sup>- Văn bản siêu chữ -->
+        <b>This text is bold</b>
+
+<p><strong>This text is important!</strong></p>
+
+
+
+
+<!-- thành phần in nghiêng, nhấn mạnh -->
+<i>đây nữa nè</i>
+<p><em>This text is emphasized.</em></p>
+
+
+
+<!-- văn bản được đánh dấu -->
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+
+<!-- văn bản nhỏ hơn  -->
+<small>This is some smaller text.</small>
+
+<!-- xóa văn bản, gạch ngang văn bản -->
+<p>My favorite color is <del>blue</del> red.</p>
+
+
+<!-- chèn văn bản  -->
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+
+<!-- văn bản xuất hiện nửa ký dưới, văn bản phụ -->
+<p>This is <sub>subscripted</sub> text.</p>
+
+
+<!-- văn bản xuất hiện nửa ký trên, giống số mũ -->
+<p>This is <sup>superscripted</sup> text.</p>
+
+
+
+
+<!-- Phần tử HTML <blockquote>xác định một phần được trích dẫn từ một nguồn khác.
+Trình duyệt thường thụt lề <blockquote>các phần tử. -->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote>
+
+
+
+<!-- <q></q>: chèn dấu ngoặc kép để trích câu dẫn -->
+    <p>WWF's goal is to: <q>Là như thế này nè.</q></p>
+
+
+
+
+<!-- Thẻ HTML <abbr> xác định từ viết tắt hoặc từ viết tắt, như "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM". -->
+<p> Nó xiên <abbr title="Là tao nè nhìn cái chóa gì">NTHT</abbr> đến nơi rồi á ư ư </p>
+
+
+<!-- address nhìn phát hiểu ngay nó làm gì phải không :))). Nó sẽ ở dạng in nghiêng nhé mấy cưng-->
+    <address>
+    Written by John Doe.<br> 
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+    </address>
+
+
+<!-- Thẻ HTML <cite>xác định tiêu đề của một tác phẩm sáng tạo (ví dụ: một cuốn sách, một bài thơ, một bài hát, một bộ phim, một bức tranh, một tác phẩm điêu khắc, v.v.). -->
+<!-- Văn bản trong <cite>phần tử thường hiển thị ở dạng in nghiêng . -->
+    <p><cite>Thấy t nghiêng nghiêng chưa </cite> by Edvard Munch. Painted in 1893.</p>
+
+
+<!-- này giống như xáo trộn chữ, trông cứ lộn xộn-->
+    <bdo dir="rtl">các bạn thấy sao, dịch được cho tiền</bdo>
+
+
+
+
+
+<!-- CSS có thể được thêm vào tài liệu HTML theo 3 cách:
+    Nội tuyến - bằng cách sử dụng stylethuộc tính bên trong các phần tử HTML
+    Nội bộ - bằng cách sử dụng một <style>phần tử trong <head>phần
+    Bên ngoài - bằng cách sử dụng một <link> phần tử để liên kết đến tệp CSS bên ngoài -->
+
+<!-- nội tuyến -->
+    <h1 style="color:blue;">A Blue Heading</h1>
+    <p style="color:red;">A red paragraph.</p>
+
+
+<!-- nội bộ -->
+<style>
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}
+</style>
+
+
+<!-- bên ngoài -->
+    <!-- Để sử dụng biểu định kiểu bên ngoài, hãy thêm liên kết đến biểu định kiểu đó trong <head>phần của mỗi trang HTML: -->
+        <!-- tạo file mới đặt tên tùy thích, đuôi của file là css nha, sau đó gắn link file trong phần <head> 
+        <link rel="stylesheet" href="/02_lesson/style.css">-->
+        <div class="xinchao">
+            <p>xin chào tất cả các bạn, tao là css bên ngoài :)))</p>
+            <p>à nhon a xê ôhhhhh</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
